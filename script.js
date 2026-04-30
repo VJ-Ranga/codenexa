@@ -73,9 +73,7 @@
                 // Re-trigger reveal animation on cards in the newly visible panel
                 panel.querySelectorAll('.reveal').forEach((el) => {
                     el.classList.remove('in');
-                    // Force reflow
-                    void el.offsetWidth;
-                    el.classList.add('in');
+                    window.setTimeout(() => el.classList.add('in'), 20);
                 });
             }
         });
