@@ -1005,7 +1005,7 @@ h1, h2, h3, h4 {
 
 .process-step:hover .step-num::before { opacity: 1; }
 
-.process-step h4 {
+.process-step h3 {
     font-size: 1rem;
     margin-bottom: 6px;
 }
@@ -1052,7 +1052,7 @@ h1, h2, h3, h4 {
 .why-icon[data-variant="cyan"] { background: rgba(34, 211, 238, 0.1); color: var(--cyan); }
 .why-icon[data-variant="lime"] { background: rgba(163, 230, 53, 0.1); color: var(--lime); }
 
-.why-card h4 {
+.why-card h3 {
     font-size: 1.05rem;
     margin-bottom: 6px;
 }
@@ -1161,7 +1161,7 @@ h1, h2, h3, h4 {
 
 .footer-copy {
     font-size: 0.82rem;
-    color: var(--text-faint);
+    color: var(--text-dim);
 }
 
 
